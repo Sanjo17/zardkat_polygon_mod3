@@ -25,7 +25,7 @@ const config: HardhatUserConfig = {
     ]
   },
   networks: {
-    mumbai: {
+    amoy: {
       url: `https://rpc-amoy.polygon.technology`,
 accounts: [process.env.SECRET_KEY ]
     }
